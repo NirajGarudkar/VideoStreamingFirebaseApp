@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "363973744588",
+    "project_id": "videoapp-afbfb",
+    "storage_bucket": "videoapp-afbfb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363973744588:android:6bdcc4fca2c3255cab6f69",
+        "android_client_info": {
+          "package_name": "com.example.loginpage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363973744588-s7l16ml24lioqn6rm0n8bvi20far2sto.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGjukyfP9VTmza6dZQx78BtWMlVcdWz0g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363973744588-s7l16ml24lioqn6rm0n8bvi20far2sto.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
