@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
                                             e.getText().clear();
                                             p.getText().clear();
                                             P_bar.setVisibility(View.INVISIBLE);
-                                            Toast.makeText(getApplicationContext(), "Sucessfully Registered", Toast.LENGTH_LONG).show();
+                                            Toast.makeText(getApplicationContext(), "Sucessfully Registered\nNow Click Already Registered", Toast.LENGTH_LONG).show();
 
 
                                         } else {

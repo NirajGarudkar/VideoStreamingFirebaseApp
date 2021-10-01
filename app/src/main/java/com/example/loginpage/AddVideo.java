@@ -13,6 +13,7 @@ import android.view.View;
 import android.webkit.MimeTypeMap;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.MediaController;
 import android.widget.Toast;
 import android.widget.VideoView;
@@ -34,7 +35,7 @@ import com.karumi.dexter.listener.single.PermissionListener;
 
 public class AddVideo extends AppCompatActivity {
     VideoView videoView;
-    Button Browse, Upload;
+    ImageView Browse, Upload;
     Uri videouri;
     MediaController mediaController;
     StorageReference storageReference;

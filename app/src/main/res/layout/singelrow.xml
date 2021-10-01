@@ -1,31 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="310dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:cardUseCompatPadding="true"
-    app:cardCornerRadius="4dp">
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#6200EA"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="10dp"
+    app:cardUseCompatPadding="true">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:text="Video Title"
-            android:textColor="#000"
-            android:id="@+id/vtitle"/>
-
         <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+            android:id="@+id/exoplayerview"
             android:layout_width="match_parent"
             android:layout_height="230dp"
-            android:id="@+id/exoplayerview"
             android:layout_margin="3dp"
-            app:use_controller="true"
-            app:resize_mode="fill"/>
+            app:resize_mode="fill"
+            app:use_controller="true">
+
+        </com.google.android.exoplayer2.ui.SimpleExoPlayerView>
+
+        <TextView
+            android:id="@+id/vtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="Video Title"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -36,6 +42,7 @@
                 android:id="@+id/like_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
                 android:layout_marginRight="5dp"
                 android:src="@drawable/ic_baseline_favorite_border_24" />
 
@@ -45,6 +52,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:hint="Likes"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
                 android:textSize="20sp" />
 
         </LinearLayout>
